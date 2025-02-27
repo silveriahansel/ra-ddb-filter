@@ -9,7 +9,7 @@ Install:
 
 Usage:
 ```javascript
-  const { makeFilterVals } = require('ra-ddb-filter')
+  const { makeFilterVals } = requiere('ra-ddb-filter')
   ...
   const filterVals = makeFilterVals(filter) // filter is an object that react-admin dataProvider sends to an endpoint
   
